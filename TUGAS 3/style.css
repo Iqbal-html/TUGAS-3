@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+.box {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.static-container1 {
+    background-color: gray;
+}
+
+.static {
+    background-color: aqua;
+    position: static;
+}
+
+.relative-container2 {
+    background-color: #7fa0c0;
+}
+.relative {
+    position: relative;
+    background-color: white;
+    left: 20px; /* Menggeser elemen 20px ke kanan */
+    top: 10px;
+}
+
+.absolute-container3 {
+    background-color: #f0d0d0;
+}
+
+.absolute {
+    position: absolute;
+    background-color: brown;
+    top: 920px; ; /* Menggeser elemen 920px dari atas halaman*/
+    left: 20px; /* Menggeser elemen 20px dari kiri halaman */
+}
+
+.fixed-container4 {
+    margin-top: 100px;
+    background-color:aquamarine ;
+}
+
+.fixed {
+    position: fixed;
+    background-color: #d0f0d0;
+    bottom: 250px; /* Menggeser elemen 250px dari bawah */
+    
+}
+
+.sticky-container5{
+    background-color: bisque ;
+}
+
+.sticky {
+    position: sticky;
+    background-color: #f0e0d0;
+    bottom: 0;
+}

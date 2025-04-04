@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TUGAS PERTEMUAN 3</h1>
+        <h2>Contoh Jenis-Jenis CSS Position</h2>
+
+        <div class="box static-container1">
+            <h2>Static Position</h2>
+            <p>Elemen ini menggunakan posisi statis, yang merupakan posisi default. Elemen akan ditempatkan sesuai dengan aliran dokumen.</p>
+            <div class="box static">
+            <p><strong>Contoh:</strong> Elemen ini tidak memiliki properti posisi yang ditentukan, sehingga akan mengikuti aliran normal.</p>
+            </div>
+        </div>
+
+        <div class="box relative-container2">
+            <h2>Relative Position</h2>
+            <p>Elemen ini menggunakan posisi relatif. Posisi elemen ini relatif terhadap posisi aslinya.</p>
+            <div class="box relative">
+                <p><strong>Contoh:</strong> Elemen ini dapat digeser dari posisi aslinya menggunakan properti <code>top</code>, <code>right</code>, <code>bottom</code>, dan <code>left</code>.</p>
+            </div>
+        </div>
+
+        <div class="box absolute-container3">
+            <h2>Absolute Position</h2>
+            <p>Elemen dihapus dari aliran normal dan diposisikan relatif terhadap elemen induk terdekat yang memiliki relative, absolute, atau fixed.</p>
+            <div class="box absolute"><p><strong>Contoh:</strong> Jika tidak ada elemen yang diposisikan, elemen ini akan diposisikan relatif terhadap viewport. Sepeti pada kotak ini.</p></div>
+        </div>
+
+        <div class="box fixed-container4">
+            <h2>Fixed Position</h2>
+            <p>Elemen ini menggunakan posisi tetap. Elemen ini diposisikan relatif terhadap viewport dan tidak akan bergerak saat halaman digulir.</p>
+            <div class="box fixed">
+                <p><strong>Contoh:</strong> Elemen ini tetap terlihat di layar meskipun pengguna menggulir halaman.</p>
+            </div>
+        </div>
+
+        <div class="box sticky-container5">
+            <h2>Sticky Position</h2>
+            <p>Elemen ini menggunakan posisi lengket. Elemen ini berperilaku seperti posisi relatif hingga mencapai batas tertentu, kemudian berperilaku seperti posisi tetap.</p>
+            <div class="box sticky">
+                <p><strong>Contoh:</strong> Elemen ini akan tetap di tempat saat pengguna menggulir halaman hingga mencapai batas yang ditentukan.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
